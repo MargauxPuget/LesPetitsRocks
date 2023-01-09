@@ -53,7 +53,7 @@ const Accueil = () => (
         <p>43000 Haute-Loire</p>
       </div>
 
-      <div className="footer_separator"></div>
+      <div className="footer_separator" />
 
       <div className="footer_categories">
         <ul>
