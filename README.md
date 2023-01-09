@@ -10,8 +10,9 @@ Site d'une éleveuse de teckel.
 - [ ] Maquettage destop
 - [ ] Création du projet react
 - [ ] Création des page téléphone
-  - [ ] Entrée
+  - [x] Entrée
   - [ ] Accueil
+    - [ ] Menu
   - [ ] Les chiens
   - [ ] Les chiots
   - [ ] Actualités
