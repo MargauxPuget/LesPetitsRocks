@@ -1,0 +1,23 @@
+.accueil{
+  background: #BF6A3A;
+  color: #fff;
+
+    &_title{
+      color: #6C2B06;
+      font-size: 2.5rem;
+      font-weight: 500;
+      padding: 2rem;
+      //text-shadow: 0.1em 0.1em 0.3em black
+    }
+    &_menu{
+      background-color: #6C2B06;
+      font-size: 1.5rem;
+      padding: 1rem;
+    }
+    &_description{
+      width: 80%;
+      margin: 1rem auto ;
+      line-height: 1.5rem;
+
+    }
+}
