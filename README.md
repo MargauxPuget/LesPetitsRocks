@@ -11,8 +11,10 @@ Site d'une éleveuse de teckel.
 - [ ] Création du projet react
 - [ ] Création des page téléphone
   - [x] Entrée : 1h (initiale isation du site + page + route en place)
-  - [ ] Accueil
+  - [ ] Accueil : 1h -> début de la mise en place -> un peu de css sur les photos des catégories
     - [ ] Menu
+    - [ ] Footer : Activité les liens des catégories
+    - [ ] Footer : Activité le gras de la catégorie active
   - [ ] Les chiens
   - [ ] Les chiots
   - [ ] Actualités
