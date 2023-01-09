@@ -17,6 +17,7 @@ Site d'une éleveuse de teckel.
   - [ ] Actualités
   - [ ] Notré élevage / Les valeurs
   - [ ] Contact
+  - [ ] Erreur
 - [ ] CRéation des pages destop
   - [ ] Entrée
   - [ ] Accueil
@@ -25,6 +26,7 @@ Site d'une éleveuse de teckel.
   - [ ] Actualités
   - [ ] Notré élevage / Les valeurs
   - [ ] Contact
+  - [ ] Erreur
 - [ ] Création de la base de donnée. les information à y stocker
   - [ ] les chiens
   - [ ] les chiots
