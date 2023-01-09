@@ -1,0 +1,17 @@
+@use 'src/styles/vars';
+
+
+button{
+  margin: 0.5rem ;
+  padding: 0.4rem 1.7rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+
+  background-color: #BF6A3A;
+  letter-spacing: 0.3rem;
+  color: #fff;
+  border: none;
+
+  position: relative;
+  bottom: -60%;
+}
