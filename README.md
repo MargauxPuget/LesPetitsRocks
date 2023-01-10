@@ -3,6 +3,7 @@
 Site d'une éleveuse de teckel.
  - Maquette téléphone faite en 1/2 journée, visible sur : https://www.figma.com/file/QMCuYSLeCcCvI6MSkZ1cor/Site-%C3%A9levage-teckel?t=oz6f1hUOwr9N21bM-1
  - Début du projet le 9 janvier 2023 avec ReactJS
+ - photo prise sur : unsplash.com
 
 ## A faire
 
@@ -10,7 +11,7 @@ Site d'une éleveuse de teckel.
 - [ ] Maquettage destop
 - [ ] Création du projet react
 - [ ] Création des page téléphone
-  - [x] Entrée : 1h (initiale isation du site + page + route en place)
+  - [x] Entrée : 1h (initialisation du site + page + route en place)
   - [ ] Accueil : 2h -> mise en place statique faite
     - [ ] Menu
     - [ ] Footer : Activité les liens des catégories
