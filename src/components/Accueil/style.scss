@@ -1,6 +1,4 @@
 .accueil{
-  background: #BF6A3A;
-  color: #fff;
 
     &_title{
       color: #6C2B06;
@@ -59,28 +57,4 @@
     }
 }
 
-.footer{
-  background-color: #6C2B06;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  line-height: 1.3rem;
 
-  padding: 1rem;
-
-  &_title{
-    line-height: 1.8rem;
-  }
-
-  &_separator{
-    background-color: #BF6A3A;
-    min-width: 4px;
-    min-height: 6rem;
-    border-radius: 5px;
-  }
-
-  &_categories_isActive{
-    font-weight: 600;
-  }
-}

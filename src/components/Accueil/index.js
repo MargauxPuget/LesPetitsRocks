@@ -59,35 +59,6 @@ const Accueil = () => (
         </div>
       </Link>
     </ul>
-    <footer className="footer">
-      <div className="footer_title">
-        <p>Elevage Les Petits Rocks</p>
-        <p>75 chemin perdu</p>
-        <p>43000 Haute-Loire</p>
-      </div>
-
-      <div className="footer_separator" />
-
-      <div className="footer_categories">
-        <ul>
-          <li>
-            <NavLink
-              to="messages"
-              className={({ isActive }) =>
-              isActive ? 'footer_categories' : 'footer_categories footer_categories_isActive'
-              }
-            >
-              Accueil
-            </NavLink>
-          </li>
-          <li>Nos chiens</li>
-          <li>Nos chiots</li>
-          <li>Actualités</li>
-          <li>Notre élevage</li>
-          <li>Contact</li>
-        </ul>
-      </div>
-    </footer>
   </div>
 );
 

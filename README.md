@@ -14,8 +14,9 @@ Site d'une éleveuse de teckel.
   - [x] Entrée : 1h (initialisation du site + page + route en place)
   - [x] Accueil : 3h
     - [ ] Menu
-    - [ ] Footer : Activité les liens des catégories
-    - [ ] Footer : Activité le gras de la catégorie active
+    - [x] Footer : Activité les liens des catégories et les mettre le gras lorsque la catégorie est active : 30min
+    - [x] Créer une page footer
+    - [ ] Créer une page header
   - [ ] Les chiens
   - [ ] Les chiots
   - [ ] Actualités

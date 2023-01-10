@@ -6,6 +6,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from 'src/components/Home';
 import Accueil from 'src/components/Accueil';
 import NosChiens from 'src/components/NosChiens';
+import Footer from 'src/components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <Route path="/nos-chiens" element={<NosChiens />} />
         {/* <Route path="*" element={<Error />} /> */}
       </Routes>
+
+      <Footer />
     </div>
   );
 }
