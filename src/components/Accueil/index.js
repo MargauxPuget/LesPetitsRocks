@@ -1,5 +1,5 @@
 import './style.scss';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 // == images
 import chien from 'src/assets/images/categories/categorie-chien.jpg';
@@ -70,7 +70,16 @@ const Accueil = () => (
 
       <div className="footer_categories">
         <ul>
-          <li>Accueil</li>
+          <li>
+            <NavLink
+              to="messages"
+              className={({ isActive }) =>
+              isActive ? 'footer_categories' : 'footer_categories footer_categories_isActive'
+              }
+            >
+              Accueil
+            </NavLink>
+          </li>
           <li>Nos chiens</li>
           <li>Nos chiots</li>
           <li>Actualités</li>

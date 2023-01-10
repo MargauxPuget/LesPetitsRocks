@@ -12,7 +12,7 @@ Site d'une éleveuse de teckel.
 - [ ] Création du projet react
 - [ ] Création des page téléphone
   - [x] Entrée : 1h (initialisation du site + page + route en place)
-  - [ ] Accueil : 2h -> mise en place statique faite
+  - [x] Accueil : 3h
     - [ ] Menu
     - [ ] Footer : Activité les liens des catégories
     - [ ] Footer : Activité le gras de la catégorie active
