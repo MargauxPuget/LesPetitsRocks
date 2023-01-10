@@ -3,6 +3,7 @@ import './styles.css';
 import { Routes, Route } from 'react-router-dom';
 
 // == composant
+import Header from 'src/components/Header';
 import Home from 'src/components/Home';
 import Accueil from 'src/components/Accueil';
 import NosChiens from 'src/components/NosChiens';
@@ -11,6 +12,8 @@ import Footer from 'src/components/Footer';
 function App() {
   return (
     <div className="container">
+
+      <Header />
 
       <Routes>
         <Route path="/" element={<Home />} />

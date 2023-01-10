@@ -5,10 +5,8 @@ import { NavLink } from 'react-router-dom';
 
 const NosChiens = () => (
   <div className="accueil">
-    <header>
-      <h1 className="accueil_title">Elevages Les Petits Rocks</h1>
-      <h2 className="accueil_menu"> Nos chiens</h2>
-    </header>
+
+    <h2 className="accueil_menu">Nos chiens</h2>
     <div className="">tralala.</div>
 
 

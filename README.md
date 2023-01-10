@@ -9,8 +9,9 @@ Site d'une éleveuse de teckel.
 
 - [x] Maquettage téléphone : 1/2 journée
 - [ ] Maquettage destop
-- [ ] Création du projet react
+- [x] Création du projet react
 - [ ] Création des page téléphone
+  - [ ] Création d'un menu en haut de l'écran
   - [x] Entrée : 1h (initialisation du site + page + route en place)
   - [x] Accueil : 3h
     - [ ] Menu
