@@ -14,16 +14,17 @@ Site d'une éleveuse de teckel.
   - [x] Créer une page footer
     - [x] Footer : Activité les liens des catégories et les mettre le gras lorsque la catégorie est active: 1h
   - [x] Créer une page header: 30min
-    - [ ] Ajout du titre de chaque page dans le header: récupération du titre de la page actuel
+    - [ ] Ajout du titre de chaque page dans le header: récupération du titre de la page actuelle
     - [ ] Création d'un menu en haut de l'écran
   - [x] Entrée : 1h (initialisation du site + page + route en place)
   - [x] Accueil : 3h
-  - [ ] Les chiens
+  - [x] Les chiens : 2h
+    - [ ] rendre la page dynamique avec une "base de donnée" (fichier data)
   - [ ] Les chiots
   - [ ] Actualités
   - [ ] Notré élevage / Les valeurs
   - [ ] Contact
-  - [ ] Erreur
+  - [x] Erreur : 20min
 - [ ] CRéation des pages destop
   - [ ] Entrée
   - [ ] Accueil

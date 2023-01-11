@@ -1,5 +1,4 @@
 .dogs{
-
   &_title{
     background-color: #6C2B06;
     font-size: 1.5rem;
@@ -9,4 +8,36 @@
   &_description{
     margin: 1rem;
   }
+}
+
+.dog{
+  width: 60%;
+  margin: 4rem auto;
+
+  &_title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    color: #6C2B06;
+
+    &_name{
+      font-weight: 600;
+    }
+  }
+
+  &_img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    // opacity: 0.80;
+  }
+
+  &_descriptionwrap{
+    
+    &_description{
+      color: #000;
+    }
+  }
+
 }
