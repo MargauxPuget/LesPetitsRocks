@@ -1,14 +1,12 @@
 import './style.scss';
-import { NavLink } from 'react-router-dom';
 
 // == composant
 
 const NosChiens = () => (
-  <div className="accueil">
+  <div className="dogs">
 
-    <h2 className="accueil_menu">Nos chiens</h2>
-    <div className="">tralala.</div>
-
+    <h2 className="dogs_title">Nos chiens</h2>
+    <div className="dogs_description">Voici tout les chiens qui participe à l'élèvage.</div>
 
   </div>
 );

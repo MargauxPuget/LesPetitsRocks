@@ -7,6 +7,7 @@ import Header from 'src/components/Header';
 import Home from 'src/components/Home';
 import Accueil from 'src/components/Accueil';
 import NosChiens from 'src/components/NosChiens';
+import Error from 'src/components/Error';
 import Footer from 'src/components/Footer';
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/accueil" element={<Accueil />} />
         <Route path="/nos-chiens" element={<NosChiens />} />
-        {/* <Route path="*" element={<Error />} /> */}
+        <Route path="*" element={<Error />} />
       </Routes>
 
       <Footer />

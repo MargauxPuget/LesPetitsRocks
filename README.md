@@ -11,13 +11,13 @@ Site d'une éleveuse de teckel.
 - [ ] Maquettage destop
 - [x] Création du projet react
 - [ ] Création des page téléphone
-  - [ ] Création d'un menu en haut de l'écran
+  - [x] Créer une page footer
+    - [x] Footer : Activité les liens des catégories et les mettre le gras lorsque la catégorie est active: 1h
+  - [x] Créer une page header: 30min
+    - [ ] Ajout du titre de chaque page dans le header: récupération du titre de la page actuel
+    - [ ] Création d'un menu en haut de l'écran
   - [x] Entrée : 1h (initialisation du site + page + route en place)
   - [x] Accueil : 3h
-    - [ ] Menu
-    - [x] Footer : Activité les liens des catégories et les mettre le gras lorsque la catégorie est active : 30min
-    - [x] Créer une page footer
-    - [ ] Créer une page header
   - [ ] Les chiens
   - [ ] Les chiots
   - [ ] Actualités

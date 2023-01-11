@@ -1,5 +1,5 @@
 import './style.scss';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 // == images
 import chien from 'src/assets/images/categories/categorie-chien.jpg';
@@ -12,8 +12,8 @@ import chien5 from 'src/assets/images/categories/categorie-chien5.jpg';
 
 const Accueil = () => (
   <div className="accueil">
-    
-    <h2 className="accueil_menu">Accueil</h2>
+
+    <h2 className="accueil_title">Accueil</h2>
     <div className="accueil_description">Danish donut chocolate cake tiramisu jelly-o candy canes jujubes chocolate. Chocolate cake gummi bears marshmallow dessert soufflé biscuit. Bear claw liquorice fruitcake icing pudding sweet roll cheesecake. Cupcake chupa chups tootsie roll lemon drops candy canes fruitcake ice cream dragée bear claw. Sweet roll chocolate gummi bears carrot cake jelly beans pudding shortbread sweet roll. Oat cake shortbread jelly tart biscuit. Tiramisu cotton candy macaroon pudding candy macaroon gingerbread.</div>
     <ul className="accueil_list">
       <Link to="/nos-chiens" className="accueil_categorie_link">
