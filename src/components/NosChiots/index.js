@@ -4,7 +4,9 @@ import './style.scss';
 import data from 'src/data/categories';
 
 // == composant
-console.log(data.nosChiots[0].litter[0].puppy[0]);
+
+// == test de data
+// console.log(data.nosChiots[0].litter[0].puppy[0]);
 
 const NosChiots = () => (
   <div className="puppies">
@@ -29,10 +31,10 @@ const NosChiots = () => (
             <p className="litter_information_male">{litter.numberMale} males</p>
             <p className="litter_information_female">{litter.numberFemale} femelles</p>
           </div>
-          {/* data.nosChiots[0].litter[0].puppy */}
+
           <div className="puppy_list">
             {data.nosChiots[0].litter[0].puppy.map((puppy) => (
-              <div className="puppy">
+              <div className="puppy" key={puppy.id}>
                 <span className="puppy_sexe">{puppy.sexe === 'f' ? 'Femmelle' : 'Male'}</span>
                 <div className="puppy_information">
                   <img className={puppy.state !== 1 ? 'puppy_information_img puppy_information_img--sell' : 'puppy_information_img'} src={puppy.picture} alt="{chien}" />

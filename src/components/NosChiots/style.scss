@@ -73,11 +73,16 @@
 
     &_sell{
       position: absolute;
-      color: black;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-          
+
+      color: black;
+      text-shadow: 0.1em 0.1em 0.3em lightgray;
+
+      & *{
+        margin: 1rem 0rem;
+      }
     }
     // ou
     &_notSell{
