@@ -38,11 +38,11 @@ const NosChiens = () => (
         <img className="dog_img" src={chien} alt="{chien}" />
         <div className="dog_descriptionwrap">
           <p className="dog_descriptionwrap_description">
-              née le 05 juillet 2022 <br />
-              couleur : camel <br />
-              père: aku <br />
-              mère: louma
-            </p>
+            née le 05 juillet 2022 <br />
+            couleur : camel <br />
+            père: aku <br />
+            mère: louma
+          </p>
         </div>
       </div>
       <div className="dog">

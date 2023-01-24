@@ -1,6 +1,6 @@
 // == Import
 import './styles.css';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 
 // == composant
 import Header from 'src/components/Header';
@@ -11,10 +11,12 @@ import Error from 'src/components/Error';
 import Footer from 'src/components/Footer';
 
 function App() {
+  const location = useLocation();
+
   return (
     <div className="container">
 
-      <Header />
+      {location.pathname !== '/' && <Header />}
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -23,7 +25,7 @@ function App() {
         <Route path="*" element={<Error />} />
       </Routes>
 
-      <Footer />
+      {location.pathname !== '/' && <Footer />}
     </div>
   );
 }
