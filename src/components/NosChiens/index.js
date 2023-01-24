@@ -1,11 +1,11 @@
 import './style.scss';
-import { Link } from 'react-router-dom';
 
 // == images
 import chien from 'src/assets/images/categories/categorie-chien.jpg';
-import data from 'src/data/categories.js';
+import data from 'src/data/categories';
 
 // == composant
+console.log(data[0]);
 
 const NosChiens = () => (
   <div className="dogs">
