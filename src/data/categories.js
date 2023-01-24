@@ -12,41 +12,44 @@ export default {
         {
           id: 1,
           state: 0, // 0-> à l'élevage; 1->à vendre; 2-> vendu; 3-> DCD
-          firstname: 'prenom',
-          lastname: 'nom',
+          firstname: 'Alou',
+          lastname: 'Sandoux',
+          slug: 'Alou-Sandoux',
           mother: 'premon nom',
           father: 'premon nom',
-          slug: 'prenom-nom',
+          color: 'camel',
           sexe: 'f', // f ou m
           birthday: '23-05-2019',
-          summary: 'Ne plus utiliser de sac en plastique',
-          picture: 'https://images.unsplash.com/photo-1576037728058-ab2c538ac8d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80',
+          summary: 'Dominante et protectrice',
+          picture: 'https://images.unsplash.com/photo-1621757298825-7ab62e5a953b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
         },
         {
           id: 2,
           state: 0,
-          firstname: 'prenom2',
-          lastname: 'nom2',
+          firstname: 'Aku',
+          lastname: 'Chanonat',
+          slug: 'Aku-Chanonat',
           mother: 'premon21 nom',
           father: 'premon22 nom',
-          slug: 'prenom-nom',
-          sexe: 'f', // f ou m
-          birthday: '23-05-2019',
-          summary: 'Ne plus utiliser de sac en plastique',
-          picture: 'https://images.unsplash.com/photo-1576037728058-ab2c538ac8d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80',
+          color: 'brun',
+          sexe: 'm', // f ou m
+          birthday: '15-08-2022',
+          summary: 'N\'aime pas les autres males',
+          picture: 'https://images.unsplash.com/photo-1607007745622-c1cd43b0d59d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
         },
         {
           id: 3,
           state: 0,
-          firstname: 'prenom3',
-          lastname: 'nom3',
+          firstname: 'Kiva',
+          lastname: 'Riom',
+          slug: 'Kiva-Riom',
           mother: 'premon31 nom',
           father: 'premon32 nom',
-          slug: 'prenom-nom',
+          color: 'camel',
           sexe: 'f', // f ou m
-          birthday: '23-05-2019',
-          summary: 'Ne plus utiliser de sac en plastique',
-          picture: 'https://images.unsplash.com/photo-1576037728058-ab2c538ac8d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80',
+          birthday: '02-06-2015',
+          summary: 'Adorable et caline',
+          picture: 'https://images.unsplash.com/photo-1621757298825-7ab62e5a953b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
         },
       ],
     },
@@ -63,39 +66,39 @@ export default {
         // une portée
         {
           id: 1,
-          mother: 'prenom nom',
-          father: 'prenom nom',
-          date: '12-05-2023', // date de mise bas
-          numberDogs: 5, // nombre de chiots
-          female: 2, // nombre de femmelle
-          male: 3, // nombre de male
-          dogs:
+          mother: 'Alou Sandoux',
+          father: 'Bildao Chappe',
+          date: '20-01-2023', // date de mise bas
+          numberFemale: 2, // nombre de femmelle
+          numberMale: 3, // nombre de male
+          puppy:
           [
             {
               id: 4,
-              state: 1,
-              firstname: 'prenom3',
-              lastname: 'nom3',
+              state: 1, // 0-> à l'élevage; 1->à vendre; 2-> vendu; 3-> DCD
+              firstname: 'Chiot 1',
+              lastname: 'Ceyrat',
+              slug: 'prenom-nom',
               mother: 'premon31 nom',
               father: 'premon32 nom',
-              slug: 'prenom-nom',
+              color: 'gris',
               sexe: 'f', // f ou m
-              birthday: '23-05-2019',
+              birthday: '20-01-2023',
               summary: 'Ne plus utiliser de sac en plastique',
-              picture: 'https://images.unsplash.com/photo-1576037728058-ab2c538ac8d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80',
+              picture: 'https://images.unsplash.com/photo-1593134257782-e89567b7718a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80',
             },
             {
-              id: 2,
-              state: 2,
+              id: 5,
+              state: 2, // 0-> à l'élevage; 1->à vendre; 2-> vendu; 3-> DCD
               firstname: 'prenom3',
               lastname: 'nom3',
               mother: 'premon31 nom',
               father: 'premon32 nom',
               slug: 'prenom-nom',
               sexe: 'm', // f ou m
-              birthday: '23-05-2019',
+              birthday: '20-01-2023',
               summary: 'Ne plus utiliser de sac en plastique',
-              picture: 'https://images.unsplash.com/photo-1576037728058-ab2c538ac8d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80',
+              picture: 'https://images.unsplash.com/photo-1593134257782-e89567b7718a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80',
             },
           ],
         },
@@ -104,9 +107,8 @@ export default {
           mother: 'prenom nom',
           father: 'prenom nom',
           date: '12-05-2023', // date de mise bas
-          numberDogs: 5, // nombre de chiots
-          female: 2, // nombre de femmelle
-          male: 3, // nombre de male
+          numberFemale: 2, // nombre de femmelle
+          numberMale: 1, // nombre de male
           dogs:
           [
             {
