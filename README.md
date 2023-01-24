@@ -19,8 +19,8 @@ Site d'une éleveuse de teckel.
   - [x] Entrée : 1h (initialisation du site + page + route en place)
   - [x] Accueil : 3h
   - [x] Les chiens : 2h
-    - [ ] rendre la page dynamique avec une "base de donnée" (fichier data)
-  - [ ] Les chiots
+    - [x] rendre la page dynamique avec une "base de donnée" (fichier data) : 1h
+  - [x] Les chiots : 1h30
   - [ ] Actualités
   - [ ] Notré élevage / Les valeurs
   - [ ] Contact
@@ -34,9 +34,9 @@ Site d'une éleveuse de teckel.
   - [ ] Notré élevage / Les valeurs
   - [ ] Contact
   - [ ] Erreur
-- [ ] Création de la base de donnée. les information à y stocker
+
+- [-] Création de la base de donnée. les information à y stocker
   - [ ] les chiens
   - [ ] les chiots
   - [ ] les actualités
 
-- [ ] Création de la base donnée

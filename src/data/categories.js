@@ -100,6 +100,19 @@ export default {
               summary: 'Ne plus utiliser de sac en plastique',
               picture: 'https://images.unsplash.com/photo-1593134257782-e89567b7718a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80',
             },
+            {
+              id: 6,
+              state: 2, // 0-> à l'élevage; 1->à vendre; 2-> vendu; 3-> DCD
+              firstname: 'prenom3',
+              lastname: 'nom3',
+              mother: 'premon31 nom',
+              father: 'premon32 nom',
+              slug: 'prenom-nom',
+              sexe: 'm', // f ou m
+              birthday: '20-01-2023',
+              summary: 'Ne plus utiliser de sac en plastique',
+              picture: 'https://images.unsplash.com/photo-1593134257782-e89567b7718a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80',
+            },
           ],
         },
         {
@@ -109,7 +122,7 @@ export default {
           date: '12-05-2023', // date de mise bas
           numberFemale: 2, // nombre de femmelle
           numberMale: 1, // nombre de male
-          dogs:
+          puppy:
           [
             {
               id: 4,
@@ -125,7 +138,46 @@ export default {
               picture: 'https://images.unsplash.com/photo-1576037728058-ab2c538ac8d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80',
             },
             {
-              id: 2,
+              id: 5,
+              state: 1,
+              firstname: 'prenom3',
+              lastname: 'nom3',
+              mother: 'premon31 nom',
+              father: 'premon32 nom',
+              slug: 'prenom-nom',
+              sexe: 'f', // f ou m
+              birthday: '23-05-2019',
+              summary: 'Ne plus utiliser de sac en plastique',
+              picture: 'https://images.unsplash.com/photo-1576037728058-ab2c538ac8d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80',
+            },
+            {
+              id: 6,
+              state: 2,
+              firstname: 'prenom3',
+              lastname: 'nom3',
+              mother: 'premon31 nom',
+              father: 'premon32 nom',
+              slug: 'prenom-nom',
+              sexe: 'f', // f ou m
+              birthday: '23-05-2019',
+              summary: 'Ne plus utiliser de sac en plastique',
+              picture: 'https://images.unsplash.com/photo-1576037728058-ab2c538ac8d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80',
+            },
+            {
+              id: 7,
+              state: 1,
+              firstname: 'prenom3',
+              lastname: 'nom3',
+              mother: 'premon31 nom',
+              father: 'premon32 nom',
+              slug: 'prenom-nom',
+              sexe: 'f', // f ou m
+              birthday: '23-05-2019',
+              summary: 'Ne plus utiliser de sac en plastique',
+              picture: 'https://images.unsplash.com/photo-1576037728058-ab2c538ac8d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80',
+            },
+            {
+              id: 8,
               state: 2,
               firstname: 'prenom3',
               lastname: 'nom3',

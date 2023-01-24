@@ -16,24 +16,24 @@ const NosChiots = () => (
 
     <div className="puppies_list">
 
-      {data.nosChiots[0].litter.map((litter) => (
-        <div className="litter" key={litter.id}>
+      {data.nosChiots[0].litter.map((lil) => (
+        <div className="litter" key={lil.id}>
 
           <div className="litter_title">
-            <h3 className="litter_title_parent">{litter.mother}</h3>
+            <h3 className="litter_title_parent">{lil.mother}</h3>
             <p className="litter_title_parent">&</p>
-            <h3 className="litter_title_parent">{litter.father}</h3>
+            <h3 className="litter_title_parent">{lil.father}</h3>
           </div>
           <div className="litter_decoration" />
           <div className="litter_information">
-            <p className="litter_information_brithday">Chiots nées le {litter.date}</p>
-            <p className="litter_information_number">{(litter.numberMale + litter.numberFemale)} chiots</p>
-            <p className="litter_information_male">{litter.numberMale} males</p>
-            <p className="litter_information_female">{litter.numberFemale} femelles</p>
+            <p className="litter_information_brithday">Chiots nées le {lil.date}</p>
+            <p className="litter_information_number">{(lil.numberMale + lil.numberFemale)} chiots</p>
+            <p className="litter_information_male">{lil.numberMale} males</p>
+            <p className="litter_information_female">{lil.numberFemale} femelles</p>
           </div>
 
           <div className="puppy_list">
-            {data.nosChiots[0].litter[0].puppy.map((puppy) => (
+            {lil.puppy.map((puppy) => (
               <div className="puppy" key={puppy.id}>
                 <span className="puppy_sexe">{puppy.sexe === 'f' ? 'Femmelle' : 'Male'}</span>
                 <div className="puppy_information">
