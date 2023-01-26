@@ -1,6 +1,6 @@
 import './style.scss';
 
-// == images
+// == data
 import data from 'src/data/categories';
 
 // == composant

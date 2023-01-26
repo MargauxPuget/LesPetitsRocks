@@ -8,6 +8,7 @@ import Home from 'src/components/Home';
 import Accueil from 'src/components/Accueil';
 import NosChiens from 'src/components/NosChiens';
 import NosChiots from 'src/components/NosChiots';
+import Farming from 'src/components/Farming';
 import Error from 'src/components/Error';
 import Footer from 'src/components/Footer';
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/accueil" element={<Accueil />} />
         <Route path="/nos-chiens" element={<NosChiens />} />
         <Route path="/nos-chiots" element={<NosChiots />} />
+        <Route path="/notre-elevage" element={<Farming />} />
         <Route path="*" element={<Error />} />
       </Routes>
 

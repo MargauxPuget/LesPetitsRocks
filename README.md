@@ -22,7 +22,7 @@ Site d'une éleveuse de teckel.
     - [x] rendre la page dynamique avec une "base de donnée" (fichier data) : 1h
   - [x] Les chiots : 1h30
   - [ ] Actualités
-  - [ ] Notré élevage / Les valeurs
+  - [x] Notré élevage / Les valeurs : 30 min avec un lien qui mène a contact
   - [ ] Contact
   - [x] Erreur : 20min
 - [ ] CRéation des pages destop
